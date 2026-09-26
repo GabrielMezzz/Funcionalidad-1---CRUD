@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.Habitos-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: left;
+  color: #000;
+}
+
+.Habitos-form .Habitos-campo {
+  margin-bottom: 8px;
+}
+
+.Habitos-form input,
+.Habitos-form select {
+  width: 100%;
+  padding: 8px;
+}
+
+.Habitos-error {
+  color: red;
+}
+
+.Habitos-cancelar {
+  margin-left: 8px;
+}
+
+.Habitos-tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Habitos-tabla th,
+.Habitos-tabla td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.Habitos-eliminar {
+  margin-left: 4px;
+}
